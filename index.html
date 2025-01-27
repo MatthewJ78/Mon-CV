@@ -2,71 +2,99 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <div>
-            <title>Mon CV</title>
-            <link rel="stylesheet" href="./style.css"> 
-        </div>
+        <title>Mon CV</title>
+        <link rel="stylesheet" href="style.css"> 
     </head>
     <!--Ceci est un travail pour mon école. Les informations choisis sont fausses et font référence à l'informatique et principalement au code informatique. 
     Je vous laisses faire les recherches si vous le souhaitez (cela n'est pas très compliqués)-->
     <body>
-        <h1>Mon Curriculum vitæ</h1>
-        <img src="./Charles_Babbage_-_1860.jpg" width="10%" height="10%">
-        <table>
-            <tr>
-                <th>|            NOM            |</th>
-                <th>|          Prenom           |</th>
-                <th>|            Âge            |</th>               
-            </tr>
-            <tr>
-                <td>|        LOVEWEBBER         |</td>
-                <td>|            Ada            |</td>
-                <td>|            185            |</td>
-            </tr>
-        </table>
+        <section id="accueil">
+            <h1>Mon Curriculum vitæ</h1>
+            <div id="TableauImage">
+                <img src="../NSI/Img/Charles_Babbage_-_1860.jpg">
+                <div class="table-container">
+                    <table id="TableauUn">
+                        <tr>
+                            <th>            NOM            </th>
+                            <th>          Prenom           </th>               
+                        </tr>
+                        <tr>
+                           <td>        LOVEWEBBER         </td>
+                           <td>            Ada            </td>
+                        </tr>
+                    </table>
+                        <br>
+                    <table id="TableauDeux">
+                        <tr>
+                            <th>            Âge            </th>
+                            <th>          Adresse          </th>
+                            
+                        </tr>
+                        <tr>
+                            <td>            185            </td>
+                            <td>  377.7749°N, -122.4194°W  </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table id="TableauTrois">
+                        <tr>
+                             <th>         N° de tel         </th>
+                             <th>       Adresse mail        </th>
+                        </tr>
+                        <tr>
+                            <td>      +33 1-800-C0D3       </td>
+                            <td>  ada.lovewebber@mail.fr   </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br>
+            <div id="lien">
+                <a href="#deux">Expérience</a> <br>
+                <a href="#trois">Diplôme</a> <br>
+                <a href="#quatre">Compétence</a> <br>
+                <a href="#cinq">Centre d'intérêt</a> <br>
+            </div>
+        </section>
         <br>
-        <table>
-            <tr>
-                <th>|          Adresse          |</th>
-                <th>|         N° de tel         |</th>
-                <th>|       Adresse mail        |</th>
-            </tr>
-            <tr>
-                <td>|  377.7749°N, -122.4194°W  |</td>
-                <td>|      +33 1-800-C0D3       |</td>
-                <td>|  ada.lovewebber@mail.fr   |</td>
-            </tr>
-        </table>
+        <section id="deux">
+            <h2>Expérience</h2>
+            <p>A fait ce site de A à Z</p>
+            <p>Connaissances sur certains sujets <span>(indices dans cette page)</span> </p>
+            <p>« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+            <br>
+            <a href="#accueil">Revenir au début</a>
+        </section>
         <br>
-        <h2>Expérience</h2>
-        <p>A fait ce site de A à Z</p>
-        <p>Connaissances sur certains sujets <span>(indices dans cette page)</span> </p>
+        <section id="trois"> 
+            <h2>Diplôme</h2>
+            <p>Diplôme de Maître en Bit-Manipulation</p><br>
+            <p>Certificat de Ninja Codeur</p><br>
+            <p>Licence en Hacking Éthique Avancé</p> <br>
+            <p>Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.</p>
+            <br>
+            <a href="#accueil">Revenir au début</a>
+        </section>
         <br>
-        <h2>Diplôme</h2>
-        <p>Diplôme de Maître en Bit-Manipulation</p><br>
-        <p>Certificat de Ninja Codeur</p><br>
-        <p>Licence en Hacking Éthique Avancé</p> <br>
+        <section id="quatre">
+            <h2>Compétence</h2>
+            <p>Sait coder en: Python, Java, C, C++, C#, Swift, Ruby, Kotlin, TypeScript, Perl, Dart, Objective-C, , Scala, Julia, Lua, Groovy, Rust, D, Go, V, Ada, Assemblage, Fortran, Modula 3, Oberon, Zig, Chapel, Crystal, Forth, Nim, PHP, HTML, CSS, Hack, Elm, ColdFusion, ASP.NET, Jinja, Twig, R, SAS, MATLAB, SQL, Stata, IDL, SPSS, DAX, J, Bash, PowerShell, Tcl, Racket, Haskell, AutoHotkey, AppleScript, Fish, VBScript, Embedded C, VHDL, Verilog, SPIN, PL/M, eLua, XC, Mumps, PureScript, Xamarin, Corona, B4X, React Native, Elixir, Erlang, F#, Clojure, OCaml, Scheme, Lisp, GDScript, UnrealScript, AngelScript, Haxe, Rebol, Smalltalk, Scratch, Logo, Prolog, Mercury, APL, Vala, Eiffel, Tcl, Nemerle, Rexx, AWK, PostScript, SML, ActionScript, Alice, Io, Euler etc...</p> <br>
+            <p>Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet. »</p>
+            <br>
+            <a href="#accueil">Revenir au début</a>
+        </section>
         <br>
-        <h2>Compétence</h2>
-        <p>Sait coder en: Python, Java, C, C++, C#, Swift, Ruby, Kotlin, TypeScript, Perl, Dart, Objective-C, , Scala, Julia, Lua, Groovy, Rust, D, Go, V, Ada, Assemblage, Fortran, Modula 3, Oberon, Zig, Chapel, Crystal, Forth, Nim, PHP, HTML, CSS, Hack, Elm, ColdFusion, ASP.NET, Jinja, Twig, R, SAS, MATLAB, SQL, Stata, IDL, SPSS, DAX, J, Bash, PowerShell, Tcl, Racket, Haskell, AutoHotkey, AppleScript, Fish, VBScript, Embedded C, VHDL, Verilog, SPIN, PL/M, eLua, XC, Mumps, PureScript, Xamarin, Corona, B4X, React Native, Elixir, Erlang, F#, Clojure, OCaml, Scheme, Lisp, GDScript, UnrealScript, AngelScript, Haxe, Rebol, Smalltalk, Scratch, Logo, Prolog, Mercury, APL, Vala, Eiffel, Tcl, Nemerle, Rexx, AWK, PostScript, SML, ActionScript, Alice, Io, Euler etc...</p> <br>
-        <br>
-        <h2>Centre d'intérêt</h2>
-
-        <br>
-
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <section id="cinq">
+            <h2>Centre d'intérêt</h2>
+            <p>A la recherche de Paul <span>emplois</span>. </p><br>
+            <p>L<span>'</span>E<span>-</span>sport</p><br>
+            <p>LES COURS DE NSI</p><br>
+            <p>Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet. » </p>
+            <br>
+            <a href="#accueil">Revenir au début</a>
+        </section>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <iframe width="560" height="315" src="https://www.youtube.com/watch?v=jNQXAC9IVRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <p id="Latin">« Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
-            Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
-            
-            Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet. »</p>
     </body>
 </html>
